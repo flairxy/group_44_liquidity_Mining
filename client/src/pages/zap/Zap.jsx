@@ -26,12 +26,21 @@ export const Zap = ({ web3, accounts, contracts }) => {
 
   const handleSetMax = (e) => {
     e.preventDefault()
-    setAmount(underTokenBalance)
+    if (activeTab === 'deposit') {
+      setAmount(underTokenBalance)
+    } else {
+      setAmount(lpBalance)
+    }
   }
 
   useEffect(() => {
     const init = async () => {
-      const [balance, checkpoint, underTokenBalance, govTokenBalance] = await Promise.all([
+      const [
+        balance,
+        checkpoint,
+        underTokenBalance,
+        govTokenBalance,
+      ] = await Promise.all([
         contracts.liquidityPool.methods.balanceOf(accounts[0]).call(),
         contracts.liquidityPool.methods.checkpoints(accounts[0]).call(),
         contracts.liquidityPool.methods.underTokenBalance().call(),
@@ -43,7 +52,7 @@ export const Zap = ({ web3, accounts, contracts }) => {
       setGovTokenBalance(govTokenBalance)
     }
     init()
-     // eslint-disable-next-line
+    // eslint-disable-next-line
   }, [amount])
 
   if (
