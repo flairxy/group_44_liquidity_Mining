@@ -1,0 +1,28 @@
+.admin {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin h1,
+h5 {
+  margin: 0.5em 0;
+}
+
+.card .analytic {
+  padding: 1em 0;
+}
+
+.admin h5,
+small {
+  color: #ec6998;
+}
+
+.zap .connect-btn {
+  margin: 2em 0;
+  text-transform: uppercase;
+  width: 40%;
+  align-self: center;
+}

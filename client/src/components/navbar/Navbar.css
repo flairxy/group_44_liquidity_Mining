@@ -1,0 +1,25 @@
+nav {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  color: #ec6998;
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.connect-btn {
+  background-color: #ec6998;
+  color: #ffffff;
+}
