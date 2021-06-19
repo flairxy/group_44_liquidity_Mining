@@ -7049,24 +7049,24 @@
     "absolutePath": "/var/www/html/ETB_updated/ETb_flair/Liquidity_Mining/contracts/LpToken.sol",
     "exportedSymbols": {
       "Context": [
-        1023
+        1058
       ],
       "ERC20": [
-        922
+        957
       ],
       "IERC20": [
-        1000
+        1035
       ],
       "LpToken": [
-        251
+        286
       ]
     },
-    "id": 252,
+    "id": 287,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 239,
+        "id": 274,
         "literals": [
           "solidity",
           "^",
@@ -7079,11 +7079,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "id": 240,
+        "id": 275,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 252,
-        "sourceUnit": 923,
+        "scope": 287,
+        "sourceUnit": 958,
         "src": "64:55:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -7093,30 +7093,30 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 241,
+              "id": 276,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 922,
+              "referencedDeclaration": 957,
               "src": "141:5:2"
             },
-            "id": 242,
+            "id": 277,
             "nodeType": "InheritanceSpecifier",
             "src": "141:5:2"
           }
         ],
         "contractDependencies": [
-          922,
-          1000,
-          1023
+          957,
+          1035,
+          1058
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 251,
+        "id": 286,
         "linearizedBaseContracts": [
-          251,
-          922,
-          1000,
-          1023
+          286,
+          957,
+          1035,
+          1058
         ],
         "name": "LpToken",
         "nameLocation": "130:7:2",
@@ -7124,12 +7124,12 @@
         "nodes": [
           {
             "body": {
-              "id": 249,
+              "id": 284,
               "nodeType": "Block",
               "src": "188:2:2",
               "statements": []
             },
-            "id": 250,
+            "id": 285,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -7137,7 +7137,7 @@
                 "arguments": [
                   {
                     "hexValue": "4c544b",
-                    "id": 245,
+                    "id": 280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -7153,7 +7153,7 @@
                   },
                   {
                     "hexValue": "4c5020546f6b656e",
-                    "id": 246,
+                    "id": 281,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -7168,12 +7168,12 @@
                     "value": "LP Token"
                   }
                 ],
-                "id": 247,
+                "id": 282,
                 "modifierName": {
-                  "id": 244,
+                  "id": 279,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 922,
+                  "referencedDeclaration": 957,
                   "src": "164:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -7184,25 +7184,25 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 243,
+              "id": 278,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "161:2:2"
             },
             "returnParameters": {
-              "id": 248,
+              "id": 283,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "188:0:2"
             },
-            "scope": 251,
+            "scope": 286,
             "src": "150:40:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 252,
+        "scope": 287,
         "src": "121:71:2"
       }
     ],
@@ -7212,24 +7212,24 @@
     "absolutePath": "/var/www/html/ETB_updated/ETb_flair/Liquidity_Mining/contracts/LpToken.sol",
     "exportedSymbols": {
       "Context": [
-        1023
+        1058
       ],
       "ERC20": [
-        922
+        957
       ],
       "IERC20": [
-        1000
+        1035
       ],
       "LpToken": [
-        251
+        286
       ]
     },
-    "id": 252,
+    "id": 287,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 239,
+        "id": 274,
         "literals": [
           "solidity",
           "^",
@@ -7242,11 +7242,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "id": 240,
+        "id": 275,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 252,
-        "sourceUnit": 923,
+        "scope": 287,
+        "sourceUnit": 958,
         "src": "64:55:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -7256,30 +7256,30 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 241,
+              "id": 276,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 922,
+              "referencedDeclaration": 957,
               "src": "141:5:2"
             },
-            "id": 242,
+            "id": 277,
             "nodeType": "InheritanceSpecifier",
             "src": "141:5:2"
           }
         ],
         "contractDependencies": [
-          922,
-          1000,
-          1023
+          957,
+          1035,
+          1058
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 251,
+        "id": 286,
         "linearizedBaseContracts": [
-          251,
-          922,
-          1000,
-          1023
+          286,
+          957,
+          1035,
+          1058
         ],
         "name": "LpToken",
         "nameLocation": "130:7:2",
@@ -7287,12 +7287,12 @@
         "nodes": [
           {
             "body": {
-              "id": 249,
+              "id": 284,
               "nodeType": "Block",
               "src": "188:2:2",
               "statements": []
             },
-            "id": 250,
+            "id": 285,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -7300,7 +7300,7 @@
                 "arguments": [
                   {
                     "hexValue": "4c544b",
-                    "id": 245,
+                    "id": 280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -7316,7 +7316,7 @@
                   },
                   {
                     "hexValue": "4c5020546f6b656e",
-                    "id": 246,
+                    "id": 281,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -7331,12 +7331,12 @@
                     "value": "LP Token"
                   }
                 ],
-                "id": 247,
+                "id": 282,
                 "modifierName": {
-                  "id": 244,
+                  "id": 279,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 922,
+                  "referencedDeclaration": 957,
                   "src": "164:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -7347,25 +7347,25 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 243,
+              "id": 278,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "161:2:2"
             },
             "returnParameters": {
-              "id": 248,
+              "id": 283,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "188:0:2"
             },
-            "scope": 251,
+            "scope": 286,
             "src": "150:40:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 252,
+        "scope": 287,
         "src": "121:71:2"
       }
     ],
@@ -7377,7 +7377,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-14T17:50:15.475Z",
+  "updatedAt": "2021-04-16T08:03:08.201Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

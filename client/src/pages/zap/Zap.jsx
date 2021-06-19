@@ -110,7 +110,7 @@ export const Zap = ({ web3, accounts, contracts }) => {
           <button onClick={(e) => handleSetMax(e)}> Max </button>
         </div>
         <span className="available-balance">
-          Available balance: {underTokenBalance}{' '}
+          Available wallet balance: {underTokenBalance}{' '}
           {activeTab === 'deposit' ? 'UTK' : 'LTK'}
         </span>
         <button className="connect-btn" onClick={(e) => handleAction(e)}>

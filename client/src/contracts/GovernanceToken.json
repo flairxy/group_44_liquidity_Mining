@@ -8320,19 +8320,19 @@
     "absolutePath": "/var/www/html/ETB_updated/ETb_flair/Liquidity_Mining/contracts/GovernanceToken.sol",
     "exportedSymbols": {
       "Context": [
-        1023
+        1058
       ],
       "ERC20": [
-        922
+        957
       ],
       "GovernanceToken": [
         33
       ],
       "IERC20": [
-        1000
+        1035
       ],
       "Ownable": [
-        421
+        456
       ]
     },
     "id": 34,
@@ -8357,7 +8357,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 34,
-        "sourceUnit": 923,
+        "sourceUnit": 958,
         "src": "64:55:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8369,7 +8369,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 34,
-        "sourceUnit": 422,
+        "sourceUnit": 457,
         "src": "120:52:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8382,7 +8382,7 @@
               "id": 4,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 922,
+              "referencedDeclaration": 957,
               "src": "202:5:0"
             },
             "id": 5,
@@ -8394,7 +8394,7 @@
               "id": 6,
               "name": "Ownable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 421,
+              "referencedDeclaration": 456,
               "src": "209:7:0"
             },
             "id": 7,
@@ -8403,20 +8403,20 @@
           }
         ],
         "contractDependencies": [
-          421,
-          922,
-          1000,
-          1023
+          456,
+          957,
+          1035,
+          1058
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 33,
         "linearizedBaseContracts": [
           33,
-          421,
-          922,
-          1000,
-          1023
+          456,
+          957,
+          1035,
+          1058
         ],
         "name": "GovernanceToken",
         "nameLocation": "183:15:0",
@@ -8473,7 +8473,7 @@
                   "id": 9,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 922,
+                  "referencedDeclaration": 957,
                   "src": "345:5:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8486,7 +8486,7 @@
                   "id": 13,
                   "name": "Ownable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 421,
+                  "referencedDeclaration": 456,
                   "src": "378:7:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8563,7 +8563,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 803,
+                      "referencedDeclaration": 838,
                       "src": "469:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8604,7 +8604,7 @@
                   "id": 23,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 370,
+                  "referencedDeclaration": 405,
                   "src": "447:9:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8699,19 +8699,19 @@
     "absolutePath": "/var/www/html/ETB_updated/ETb_flair/Liquidity_Mining/contracts/GovernanceToken.sol",
     "exportedSymbols": {
       "Context": [
-        1023
+        1058
       ],
       "ERC20": [
-        922
+        957
       ],
       "GovernanceToken": [
         33
       ],
       "IERC20": [
-        1000
+        1035
       ],
       "Ownable": [
-        421
+        456
       ]
     },
     "id": 34,
@@ -8736,7 +8736,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 34,
-        "sourceUnit": 923,
+        "sourceUnit": 958,
         "src": "64:55:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8748,7 +8748,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 34,
-        "sourceUnit": 422,
+        "sourceUnit": 457,
         "src": "120:52:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8761,7 +8761,7 @@
               "id": 4,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 922,
+              "referencedDeclaration": 957,
               "src": "202:5:0"
             },
             "id": 5,
@@ -8773,7 +8773,7 @@
               "id": 6,
               "name": "Ownable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 421,
+              "referencedDeclaration": 456,
               "src": "209:7:0"
             },
             "id": 7,
@@ -8782,20 +8782,20 @@
           }
         ],
         "contractDependencies": [
-          421,
-          922,
-          1000,
-          1023
+          456,
+          957,
+          1035,
+          1058
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 33,
         "linearizedBaseContracts": [
           33,
-          421,
-          922,
-          1000,
-          1023
+          456,
+          957,
+          1035,
+          1058
         ],
         "name": "GovernanceToken",
         "nameLocation": "183:15:0",
@@ -8852,7 +8852,7 @@
                   "id": 9,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 922,
+                  "referencedDeclaration": 957,
                   "src": "345:5:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8865,7 +8865,7 @@
                   "id": 13,
                   "name": "Ownable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 421,
+                  "referencedDeclaration": 456,
                   "src": "378:7:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8942,7 +8942,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 803,
+                      "referencedDeclaration": 838,
                       "src": "469:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8983,7 +8983,7 @@
                   "id": 23,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 370,
+                  "referencedDeclaration": 405,
                   "src": "447:9:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -9079,6 +9079,82 @@
     "version": "0.8.3+commit.8d00100c.Emscripten.clang"
   },
   "networks": {
+    "97": {
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x255B80aA25AD75Aa3E5d6Af5a834E6C09c3118b0",
+      "transactionHash": "0xc36a6d13d295e8160e54062ff033e338ed8e9336749fbe430ecacfda68f044f8"
+    },
     "5777": {
       "events": {
         "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
@@ -9152,12 +9228,12 @@
         }
       },
       "links": {},
-      "address": "0xA0324295Aa287A4ADa305C3CB742f3E8A82e5520",
-      "transactionHash": "0xb80486aeac5dbadf87e054ed8c2195931e608e01989875d9ba2579f8f0c6eeae"
+      "address": "0x52d5d951C1c23DCc86C8C5A33B7E1066c95F90F0",
+      "transactionHash": "0xfb8e364053c7efcd77e6cd8d5e1f37422e4a6adf555e1d88db352c7d1878d090"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-14T20:44:13.267Z",
+  "updatedAt": "2021-04-17T08:17:00.987Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
